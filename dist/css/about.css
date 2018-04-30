@@ -1,0 +1,330 @@
+.page-info {
+    margin-top: 20vh;
+}
+.scrollMagic {
+    margin-bottom: -2px; 
+    position: static; /*-2margin是為了上圖片與圖片連接之間沒有尖閣*/
+}
+.pinContainer{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    position: relative;
+    top: 0px;
+    margin: 0px 0 0 0;
+    padding: 0; 
+    height: 100vh;
+}
+.pinContainer,
+.pinContainer * {
+    -webkit-transition: left, right ease-in-out .5s;
+    -o-transition: left, right ease-in-out .5s; 
+    transition: left, right ease-in-out .5s;
+}
+.panel {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    width: 100%;
+    height: 100vh;
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    float: left;
+    position: absolute;
+}
+.panel .mh-100 { 
+    height: 100vh;
+}
+.scrollMagic .full-pages-title { 
+    margin-top: 28vh;
+}
+
+.animate-wrapper, .animate-wrapper * {
+    -webkit-transition: all ease-in-out 10s;
+    -o-transition: all ease-in-out 10s; 
+    transition: all ease-in-out 10s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+.animate-wrapper { 
+    position: relative; 
+    width: calc(100%); 
+    margin: 15px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding-bottom: 62.5%; 
+    height:0;
+    float: left;
+    -webkit-transition: height linear .3s;
+    -o-transition: height linear .3s; 
+    transition: height linear .3s;
+}
+.animate-wrapper .bg-elm { 
+    background-color: #000; 
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px;
+    width: 100%; 
+    height: 100%; 
+    background-attachment: local; 
+    background-position: center center;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 4px 4px 1px rgba(0,0,0,0.1),
+        8px 8px 10px rgba(0,0,0,0.03);
+}
+
+.animate-wrapper h5 { 
+    display: block; 
+    float: left;
+    width: 100%;
+    font-family: inherit; 
+    color: #F2F2F2;
+    text-align: right; 
+    font-size: 16px; 
+    line-height: 1.4; 
+    padding: 20px 24px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lg-outer.lg-custom-item { 
+    background-color: white; 
+    width: 100%;
+
+}
+.lg-outer.lg-custom-item .lg-img-wrap { 
+    padding-right: 40%!important;
+}
+.lg-outer.lg-custom-item	.lg-custom-item{ 
+    position: absolute;
+    width: 40%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    min-width: 300px; 
+    height: 100vh; 
+    overflow-y: auto; 
+    top: 0;
+    right:0; 
+    bottom:0;
+    padding: 18% 20px 20px 20px; 
+    word-wrap: break-word;
+    z-index: 99999;
+    background-color: #f1f1f1;
+
+}
+
+.lg-outer.lg-custom-item .lg-sub-html { 
+    padding: 0;
+    position: static; }
+
+.lg-outer.lg-custom-item	.lg-custom-item p { 
+    width: 100%;
+    float: left;
+}
+.lg-outer.lg-custom-item	.lg-custom-item,
+.lg-outer.lg-custom-item	.lg-custom-item * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    /*word-break: break-all;*/ 
+    white-space: normal;
+}
+.jscroll-next { 
+    width: 100px; 
+    height: 100px;
+    line-height: 100px; 
+    display: block;
+    margin: 3.5em auto 0 auto; 
+    border-radius: 50%; 
+    border: 4px solid #F15946; 
+    color: #F15946;
+    font-size: 38px; 
+    text-align: center;
+    -webkit-transition: all linear .35s;
+    -o-transition: all linear .35s; 
+    transition: all linear .35s;
+}
+.jscroll-next:hover { 
+    border-color: #E58500; 
+    color: #E58500;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15); 
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.15);
+    -webkit-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95); 
+    transform: scale(.95);
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .animate-wrapper {
+        width: calc(100% - 20px); 
+        margin: 10px;
+        padding-bottom: 72%;
+    }
+    .lg-outer.lg-custom-item .lg-img-wrap { 
+        padding-right: 0%!important;
+        padding-bottom: 50vh!important;
+    }
+
+    .scrollMagic { 
+        height: 0;
+        display: none;
+    }
+
+    .lg-outer.lg-custom-item	.lg-custom-item{ 
+        position: absolute;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box; 
+        width: 100%;
+        min-width: 100%; 
+        height: 50vh; 
+        background-color: #ddd; 
+        overflow-y: auto;
+        top: 50%; 
+        right:0; 
+        bottom:0;
+        padding: 13% 15px 20px 15px; 
+        word-wrap: break-word;
+        z-index: 99999;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 800px) and(orientation: landscape) {
+    .scrollMagic .full-pages-title { 
+        margin-top: 18vh;
+    }
+    .lg-outer.lg-custom-item .lg-img-wrap { 
+        padding-right: 50%!important;
+    }
+    .lg-outer.lg-custom-item .lg-img-wrap img { 
+        margin-top: 25vh!important;
+    }
+    .lg-outer.lg-custom-item	.lg-custom-item{ 
+        position: absolute;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box; 
+        width: 50%;
+        min-width: 50%; 
+        height: 100vh;
+        background-color: #ddd; 
+        overflow-y: auto;
+        top: 0%; 
+        right:0; 
+        bottom:0;
+        padding: 10% 15px 20px 15px; 
+        word-wrap: break-word;
+        z-index: 99999;
+    }
+}
+
+/*====== css animation 所以我討厭寫， 規則這麼多, 還有 browser prefix
+======*/
+.animate-wrapper .bg-elm:nth-of-type(4),
+.animate-wrapper .bg-elm:nth-of-type(4):after { 
+    animation: fade4 30s linear infinite;
+}
+@keyframes fade4 { 0% { opacity: 0; }
+    2% {opacity: 1;}
+    23% { opacity: 1}
+    25%, 100% { opacity: 0;}
+}
+@-moz-keyframes fade4 { 0% { opacity: 0; }
+    2% {opacity: 1;}
+    23% { opacity: 1}
+    25%, 100% { opacity: 0;}
+}
+@-ms-keyframes fade4 { 0% { opacity: 0; }
+    2% {opacity: 1;}
+    23% { opacity: 1}
+    25%, 100% { opacity: 0;}
+}
+@-webkit-keyframes fade4 { 0% { opacity: 0; }
+    2% {opacity: 1;}
+    23% { opacity: 1}
+    25%, 100% { opacity: 0;}
+}
+.animate-wrapper .bg-elm:nth-of-type(3),
+.animate-wrapper .bg-elm:nth-of-type(3):after { 
+    animation: fade3 30s linear infinite;
+}
+@keyframes fade3 {
+    0%, 23%	{ opacity: 0; }
+    25% {opacity: 1;}
+    48% { opacity: 1}
+    50%, 100% { opacity: 0;}
+}
+@-moz-keyframes fade3 { 0%, 23%	{ opacity: 0; }
+    25% {opacity: 1;}
+    48% { opacity: 1}
+    50%, 100% { opacity: 0;}
+}
+@-ms-keyframes fade3 {
+
+    0%, 23%	{ opacity: 0; }
+    25% {opacity: 1;}
+    48% { opacity: 1}
+    50%, 100% { opacity: 0;}
+}
+@-webkit-keyframes fade3 { 0%, 23%	{ opacity: 0; }
+    25% {opacity: 1;}
+    48% { opacity: 1}
+    50%, 100% { opacity: 0;}
+}
+.animate-wrapper .bg-elm:nth-of-type(2),
+.animate-wrapper .bg-elm:nth-of-type(2):after { 
+    animation: fade2 30s linear infinite;
+}
+@keyframes fade2 {
+    0%, 48% { opacity: 0; }
+    50% {opacity: 1;}
+    73% { opacity: 1}
+    75%, 100% { opacity: 0;}
+}
+@-moz-keyframes fade2 { 0%, 48% { opacity: 0; }
+    50% {opacity: 1;}
+    73% { opacity: 1}
+    75%, 100% { opacity: 0;}
+}
+@-ms-keyframes fade2 { 0%, 48% { opacity: 0; }
+    50% {opacity: 1;}
+    73% { opacity: 1}
+    75%, 100% { opacity: 0;}
+}
+@-webkit-keyframes fade2 { 0%, 48% { opacity: 0; }
+    50% {opacity: 1;}
+    73% { opacity: 1}
+    75%, 100% { opacity: 0;}
+}
+.animate-wrapper .bg-elm:nth-of-type(1),
+.animate-wrapper .bg-elm:nth-of-type(1):after { 
+    animation: fade1 30s linear infinite;
+}
+@keyframes fade1 {
+    0%, 73% { opacity: 0; }
+    75% {opacity: 1;}
+    98% { opacity: 1}
+    100% { opacity: 0;}
+
+}
+@-moz-keyframes fade1 { 0%, 73% { opacity: 0; }
+    75% {opacity: 1;}
+    98% { opacity: 1}
+    100% { opacity: 0;}
+}
+@-ms-keyframes fade1 { 0%, 73% { opacity: 0; }
+    75% {opacity: 1;}
+    98% { opacity: 1}
+    100% { opacity: 0;}
+}
+@-webkit-keyframes fade1 { 0%, 73% { opacity: 0; }
+    75% {opacity: 1;}
+    98% { opacity: 1}
+    100% { opacity: 0;}
+}

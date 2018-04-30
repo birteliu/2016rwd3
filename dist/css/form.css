@@ -1,0 +1,103 @@
+form {
+    color: #313131;
+}
+
+form div {
+    margin-bottom: 5px;
+}
+
+form label {
+    float: left;
+    width: 20%;
+    min-width: 120px;
+    text-align: right;
+    padding: 5px 1em 0px 10px;
+    font-size: 1.15em;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 65%;
+    line-height: 2;
+    font-size: 1.15em;
+    resize: none;  /*使訊息欄無法自由拖曳大小*/
+    padding: 3px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #CC7914;
+}
+
+form label[data-required]:after {
+    content: " * ";
+    display: inline-block;
+    color: #EF233C;
+    font-size: 1em;
+}
+
+form div:last-of-type {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form .ui-btn {
+    /*  padding: 4px 1em;*/
+}
+
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-bottom: 1px solid #3A3D0B;
+    -webkit-transition: all ease-in-out .35s;
+    -o-transition: all ease-in-out .35s;
+    transition: all ease-in-out .35s;
+    border: none;
+    border-bottom: 1px solid #F15946;
+}
+
+form .ui-btn {
+    border: none;
+    outline: none;
+    background-color: #E58816;
+    color: #f7f7f7;
+}
+form .ui-btn:hover {
+    border: none;
+    outline: none;
+    background-color: #F15946;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.report-btn {
+    padding: 10px 15px;;
+    color: #f7f7f7;
+    background-color: #E58816;
+}
+.report-btn:hover {
+    padding: 10px 15px;;
+    color: #f7f7f7;
+    background-color: #F15946;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    
+
+    form input:not([type="submit"]), form label, form textarea {
+        width: 96%;
+        float: left;
+        margin: 7px; 0 1.5% 1.5%;
+        text-align: left;
+        font-size: 1.2em;
+    }
+    form {
+        float: left;
+        margin-top: 1em;
+        margin-bottom: 5em;
+        width: 100%;
+    }
+  
+}

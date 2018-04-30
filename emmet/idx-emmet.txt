@@ -1,0 +1,43 @@
+<!--css plugin css-->
+<!--head 結束標籤前
+link[rel="stylesheet"][href="js/scrollBar/jquery.mCustomScrollbar.css"][type="text/css"][media="screen"]
+
+script[src="js/loopingVid.js"]
+-->
+<!-- body 結束標籤前 js-->
+<!--
+(script[src="js/jquery-1.11.3.min.js"])+(script[src="js/smooth-scroll.min.js"])+(script[src="js/fd-menu.js"])+(script[src="js/sideColumnMenu.js"])+(script[src="js/scrollBar/jquery.mCustomScrollbar.concat.min.js"])+(script[src="js/scrollBarFunc.js"])
+-->
+
+<!--step 01-->
+<!--
+(div.bottom-layer[style="background-image:url('')"]>div.vid-outer>video#video.iframe[mute][autobuffer][post=""])+(div#page.layer-top)+(.fd-menu.f-dec>.fd-wrap>(ul>(li>a)*5)+(.gw-12.omega.pd1.text-white>(.gw-12.omega.pt3>h4.f-dec.text-white{Google Search})+(.gw-12.omega.pos-r.pd1)+(.gw-12.omega>(h4{sharw links})+(.gw-12.omega.s-media.pt1>(a.icon-)*4))))
+-->
+
+<!--step 02 .fd-menu 結束標籤後 body end script before -->
+<!--
+(a#push.fd-menu-btn[href="javascript:void(0)"])+(div.panel-overlay)+(div.__loader.f-dec.tac)
+-->
+
+<!--step 03 #page 內 header-->
+<!--
+header.gw-12.omega.__matchBg.pos-r>(div.mask.bgc-)+(div.pd-box.ta-c.pos-r>h1.f-dec.text-white.mega-title>(span.svg-logo.idx>img)+(span.block.pd1.text-white{aaa}))
+-->
+
+<!--step 04 -->
+<!--
+article#works.gw-12.omega>section-wrap.fx-container.full-device>(div.flex-no-space-6.column.fx-order-1>div.flex-no-space-12.pos-r>(a.fix-selector.bgc-[data-bg-url=""][data-pos=""][data-hover="bgc-"]>(div.images-fill)+(h2.f-dec>(sup{top text})+(span{center-text})+(sub{bottom text})))+(a[data-load-url="assist/idx_section1.html #section-1"]))+(div.flex-no-space-6.column.nested-fx.fx-order-2>(.flex-no-space-12.mh-50>(a.fix-selector.bgc-[data-bg-url=""][data-pos=""][data-hover="bgc-"]>(div.images-fill)+(h2.f-dec>(sup{top})+(span{middle})+(sub{bottom})))+(a[data-load-url="assist/idx_section1.html #section-2"]))+(.flex-no-space-12.mh-50>a.fix-selector.bgc-[data-bg-url=""][data-pos=""][data-hover="bgc"]>(div.images-fill)+(h2.f-dec>(sup{top})+(span{middle})+(sub{bottom}))))
+-->
+
+
+<!--step 05 2*2 -->
+<!--
+section.section-wrap.fx-container.full-device>div.flex-no-space-6.column.nested-fx>(.flex-no-space-12.mh-50>a.fix-selector.bgc-[data-bg-url=""][data-pos=""][data-hover="bgc-"]>(div.images-fill)+(h2.f-dec>(sup{top})+(span{middle})+(sub{bottom})))+(.flex-no-space-12.mh-50>a.fix-selector.bgc-[data-bg-url=""][data-pos=""][data-hover="bgc-"]>(div.images-fill)+(h2.f-dec>(sup{top})+(span{middle})+(sub{bottom})))
+-->
+
+
+<!--ajax element-->
+<!--
+div#__fix.section-project.text-white>(div.__load.gw-12.omega.ajax)+(i.close)+(div.gw-12.omega.ta-r.pd1>a.f-bold.ui-btn.bgc-.text-white.font-l{top})
+
+-->

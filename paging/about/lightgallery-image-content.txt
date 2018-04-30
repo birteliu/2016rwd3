@@ -1,0 +1,27 @@
+<div class="fx-item-4 margin-b pt1 lg-custom-item bgc-gray-20" 
+                 data-sub-html='<div class="lg-custom-item">
+                                <div class="ta-l gw-12 omega">
+                                <h3 class="f-dec text-pink-100">
+                                標題
+                                </h3>
+                                <h4 class="tw bold pt1">
+                                短說明
+                                </h4>
+                                <h5 class="tw pt1">
+                                文字 01
+                                </h5>
+                                <p class="tw">
+                                <span class="pd1">文字 02<span>
+                                </p>
+                                </div>
+                                </div>' 
+                 href="../images/about/pa-2013-1.jpg">
+              <div class="animate-text-content no-hover" data-links="img-guide">
+                <div class="gw-12 omega">
+                  <img src="../images/about/pa-2013-1.jpg" alt="images" class="fw-100">
+                </div>
+                <div class="gw-12 omega">
+                  <h5 class="tw">first line<small>second line</small></h5>
+                </div>
+              </div>
+            </div><!--item-4-->

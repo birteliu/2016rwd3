@@ -1,0 +1,657 @@
+/*
+* 2016-01
+* for GJ RWD design course
+* created by Hui Fang Wu
+* http://www.fionawu.url.tw/
+*/
+$crimson  : #dc143c;
+$pink: #db137f;
+$indigo: #5a009c;
+$navy:#2b2bba;
+$deepBlue: #212369;
+$slateBlue:#4635b0;
+$skyBlue: #00aee4;
+$cyan: #167374;
+$forestGreen: #228b22;
+$seaGreen: #37b371;
+$yellowGreen:#8ab82d;
+$gold:#ffd700;
+$yellowOrange :#ffbf00;
+$violet: #ca1bca;
+$violetRed: #d0168b;
+$orchid: #68228b;
+$orange: #ff8c00;
+$orangeRed: #ff4500;
+$brown: #a52a2a;
+$tan: #b88747;
+$gray: #808080;
+$slateGray: #647381;
+$red: #bc1717;
+$black: #000000;
+$white: #ffffff;
+$seeblue: #05668D;
+
+/*crimson*/
+.bgc-crimson-100 { background-color: $crimson  ; color: $white;}
+.bgc-crimson-90 { background-color: lighten($crimson  ,  5%); color: $white;}
+.bgc-crimson-80 { background-color: lighten($crimson  , 10%); color: $white;}
+.bgc-crimson-70 { background-color: lighten($crimson  , 15%); color: $white;}
+.bgc-crimson-60 { background-color: lighten($crimson  , 20%); color: $white;}
+.bgc-crimson-50 { background-color: lighten($crimson  , 25%);}
+.bgc-crimson-40 { background-color: lighten($crimson  , 30%);}
+.bgc-crimson-30 { background-color: lighten($crimson  , 35%);}
+.bgc-crimson-20 { background-color: lighten($crimson  , 40%);}
+.bgc-crimson-10 { background-color: lighten($crimson  , 45%);}
+
+/*pink*/
+.bgc-pink-100 { background-color: $pink; color: $white;}
+.bgc-pink-90 { background-color: lighten($pink  ,  5%); color: $white;}
+.bgc-pink-80 { background-color: lighten($pink  , 10%); color: $white;}
+.bgc-pink-70 { background-color: lighten($pink  , 15%); color: $white;}
+.bgc-pink-60 { background-color: lighten($pink  , 20%); color: $white;}
+.bgc-pink-50 { background-color: lighten($pink  , 25%);}
+.bgc-pink-40 { background-color: lighten($pink  , 30%);}
+.bgc-pink-30 { background-color: lighten($pink  , 35%);}
+.bgc-pink-20 { background-color: lighten($pink  , 39%);}
+.bgc-pink-10 { background-color: lighten($pink  , 44%);}
+
+/*indigo*/
+.bgc-indigo-100 { background-color: $indigo; color: $white;}
+.bgc-indigo-90 { background-color: lighten($indigo,  5%); color: $white;}
+.bgc-indigo-80 { background-color: lighten($indigo, 10%); color: $white;}
+.bgc-indigo-70 { background-color: lighten($indigo, 15%); color: $white;}
+.bgc-indigo-60 { background-color: lighten($indigo, 20%); color: $white;}
+.bgc-indigo-50 { background-color: lighten($indigo, 25%); color:$white;}
+.bgc-indigo-40 { background-color: lighten($indigo, 30%); color:$white;}
+.bgc-indigo-30 { background-color: lighten($indigo, 35%);}
+.bgc-indigo-20 { background-color: lighten($indigo, 40%);}
+.bgc-indigo-10 { background-color: lighten($indigo, 50%);}
+
+/*navy*/
+.bgc-navy-100 { background-color: $navy; color: $white;}
+.bgc-navy-90 { background-color: lighten($navy,  5%); color: $white;}
+.bgc-navy-80 { background-color: lighten($navy, 10%); color: $white;}
+.bgc-navy-70 { background-color: lighten($navy, 15%); color: $white;}
+.bgc-navy-60 { background-color: lighten($navy, 20%); color: $white;}
+.bgc-navy-50 { background-color: lighten($navy, 25%); color: $white;}
+.bgc-navy-40 { background-color: lighten($navy, 30%);}
+.bgc-navy-30 { background-color: lighten($navy, 35%);}
+.bgc-navy-20 { background-color: lighten($navy, 40%);}
+.bgc-navy-10 { background-color: lighten($navy, 45%);}
+
+/*deepBlue*/
+.bgc-deepBlue-100 { background-color: $deepBlue; color: $white;}
+.bgc-deepBlue-90 { background-color: lighten($deepBlue,  5%); color: $white;}
+.bgc-deepBlue-80 { background-color: lighten($deepBlue, 10%); color: $white;}
+.bgc-deepBlue-70 { background-color: lighten($deepBlue, 15%); color: $white;}
+.bgc-deepBlue-60 { background-color: lighten($deepBlue, 20%); color: $white;}
+.bgc-deepBlue-50 { background-color: lighten($deepBlue, 25%); color: $white;}
+.bgc-deepBlue-40 { background-color: lighten($deepBlue, 30%); color: $white;}
+.bgc-deepBlue-30 { background-color: lighten($deepBlue, 35%); color: $white;}
+.bgc-deepBlue-20 { background-color: lighten($deepBlue, 40%);}
+.bgc-deepBlue-10 { background-color: lighten($deepBlue, 50%);}
+
+/*slateBlue*/
+.bgc-slateBlue-100 { background-color: $slateBlue; color: $white;}
+.bgc-slateBlue-90 { background-color: lighten($slateBlue,  5%); color: $white;}
+.bgc-slateBlue-80 { background-color: lighten($slateBlue, 10%); color: $white;}
+.bgc-slateBlue-70 { background-color: lighten($slateBlue, 15%); color: $white;}
+.bgc-slateBlue-60 { background-color: lighten($slateBlue, 20%); color: $white;}
+.bgc-slateBlue-50 { background-color: lighten($slateBlue, 25%);}
+.bgc-slateBlue-40 { background-color: lighten($slateBlue, 30%);}
+.bgc-slateBlue-30 { background-color: lighten($slateBlue, 35%);}
+.bgc-slateBlue-20 { background-color: lighten($slateBlue, 40%);}
+.bgc-slateBlue-10 { background-color: lighten($slateBlue, 45%);}
+
+/*skyBlue*/
+.bgc-skyBlue-100 { background-color: $skyBlue; color: $white;}
+.bgc-skyBlue-90 { background-color: lighten($skyBlue,  5%); color: $white;}
+.bgc-skyBlue-80 { background-color: lighten($skyBlue, 10%); color: $white;}
+.bgc-skyBlue-70 { background-color: lighten($skyBlue, 15%); color: $white;}
+.bgc-skyBlue-60 { background-color: lighten($skyBlue, 20%); color: $white;}
+.bgc-skyBlue-50 { background-color: lighten($skyBlue, 25%);}
+.bgc-skyBlue-40 { background-color: lighten($skyBlue, 30%);}
+.bgc-skyBlue-30 { background-color: lighten($skyBlue, 35%);}
+.bgc-skyBlue-20 { background-color: lighten($skyBlue, 40%);}
+.bgc-skyBlue-10 { background-color: lighten($skyBlue, 45%);}
+
+/*cyan*/
+.bgc-cyan-100 { background-color: $cyan; color: $white;}
+.bgc-cyan-90 { background-color: lighten($cyan,  5%); color: $white;}
+.bgc-cyan-80 { background-color: lighten($cyan, 10%); color: $white;}
+.bgc-cyan-70 { background-color: lighten($cyan, 15%); color: $white;}
+.bgc-cyan-60 { background-color: lighten($cyan, 20%);}
+.bgc-cyan-50 { background-color: lighten($cyan, 25%);}
+.bgc-cyan-40 { background-color: lighten($cyan, 30%);}
+.bgc-cyan-30 { background-color: lighten($cyan, 35%);}
+.bgc-cyan-20 { background-color: lighten($cyan, 40%);}
+.bgc-cyan-10 { background-color: lighten($cyan, 55%);}
+
+/*forestGreen*/
+.bgc-forestGreen-100 { background-color: $forestGreen; color: $white;}
+.bgc-forestGreen-90 { background-color: lighten($forestGreen,  5%); color: $white;}
+.bgc-forestGreen-80 { background-color: lighten($forestGreen, 10%); color: $white;}
+.bgc-forestGreen-70 { background-color: lighten($forestGreen, 15%); color: $white;}
+.bgc-forestGreen-60 { background-color: lighten($forestGreen, 20%); }
+.bgc-forestGreen-50 { background-color: lighten($forestGreen, 25%);}
+.bgc-forestGreen-40 { background-color: lighten($forestGreen, 30%);}
+.bgc-forestGreen-30 { background-color: lighten($forestGreen, 35%);}
+.bgc-forestGreen-20 { background-color: lighten($forestGreen, 40%);}
+.bgc-forestGreen-10 { background-color: lighten($forestGreen, 45%);}
+
+/*seaGreen*/
+.bgc-seaGreen-100 { background-color: $seaGreen; color: $white;}
+.bgc-seaGreen-90 { background-color: lighten($seaGreen,  5%); color: $white;}
+.bgc-seaGreen-80 { background-color: lighten($seaGreen, 10%); color: $white;}
+.bgc-seaGreen-70 { background-color: lighten($seaGreen, 15%); color: $white;}
+.bgc-seaGreen-60 { background-color: lighten($seaGreen, 20%);}
+.bgc-seaGreen-50 { background-color: lighten($seaGreen, 25%);}
+.bgc-seaGreen-40 { background-color: lighten($seaGreen, 30%);}
+.bgc-seaGreen-30 { background-color: lighten($seaGreen, 35%);}
+.bgc-seaGreen-20 { background-color: lighten($seaGreen, 40%);}
+.bgc-seaGreen-10 { background-color: lighten($seaGreen, 45%);}
+
+/*yellowGreen*/
+.bgc-yellowGreen-100 { background-color: $yellowGreen; color: $white;}
+.bgc-yellowGreen-90 { background-color: lighten($yellowGreen,  5%); color: $white;}
+.bgc-yellowGreen-80 { background-color: lighten($yellowGreen, 10%); color: $white;}
+.bgc-yellowGreen-70 { background-color: lighten($yellowGreen, 15%); color: $white;}
+.bgc-yellowGreen-60 { background-color: lighten($yellowGreen, 20%);}
+.bgc-yellowGreen-50 { background-color: lighten($yellowGreen, 25%);}
+.bgc-yellowGreen-40 { background-color: lighten($yellowGreen, 30%);}
+.bgc-yellowGreen-30 { background-color: lighten($yellowGreen, 35%);}
+.bgc-yellowGreen-20 { background-color: lighten($yellowGreen, 40%);}
+.bgc-yellowGreen-10 { background-color: lighten($yellowGreen, 43%);}
+
+/*yellowOrange*/
+.bgc-yellowOrange-100 { background-color: $yellowOrange; color: $white;}
+.bgc-yellowOrange-90 { background-color: lighten($yellowOrange,  5%); color: $white;}
+.bgc-yellowOrange-80 { background-color: lighten($yellowOrange, 10%); color: $white;}
+.bgc-yellowOrange-70 { background-color: lighten($yellowOrange, 15%); color: $white;}
+.bgc-yellowOrange-60 { background-color: lighten($yellowOrange, 20%);}
+.bgc-yellowOrange-50 { background-color: lighten($yellowOrange, 25%);}
+.bgc-yellowOrange-40 { background-color: lighten($yellowOrange, 30%);}
+.bgc-yellowOrange-30 { background-color: lighten($yellowOrange, 35%);}
+.bgc-yellowOrange-20 { background-color: lighten($yellowOrange, 40%);}
+.bgc-yellowOrange-10 { background-color: lighten($yellowOrange, 43%);}
+
+/*orange*/
+.bgc-orange-100 { background-color: $orange; color: $white;}
+.bgc-orange-90 { background-color: lighten($orange,  5%); color: $white;}
+.bgc-orange-80 { background-color: lighten($orange, 10%);  color: $white;}
+.bgc-orange-70 { background-color: lighten($orange, 15%); }
+.bgc-orange-60 { background-color: lighten($orange, 20%); }
+.bgc-orange-50 { background-color: lighten($orange, 25%);}
+.bgc-orange-40 { background-color: lighten($orange, 30%);}
+.bgc-orange-30 { background-color: lighten($orange, 35%);}
+.bgc-orange-20 { background-color: lighten($orange, 40%);}
+.bgc-orange-10 { background-color: lighten($orange, 45%);}
+
+/*orangeRed*/
+.bgc-orangeRed-100 { background-color: $orangeRed; color: $white;}
+.bgc-orangeRed-90 { background-color: lighten($orangeRed,  5%); color: $white;}
+.bgc-orangeRed-80 { background-color: lighten($orangeRed, 10%); color: $white;}
+.bgc-orangeRed-70 { background-color: lighten($orangeRed, 15%); color: $white;}
+.bgc-orangeRed-60 { background-color: lighten($orangeRed, 20%); }
+.bgc-orangeRed-50 { background-color: lighten($orangeRed, 25%);}
+.bgc-orangeRed-40 { background-color: lighten($orangeRed, 30%);}
+.bgc-orangeRed-30 { background-color: lighten($orangeRed, 35%);}
+.bgc-orangeRed-20 { background-color: lighten($orangeRed, 40%);}
+.bgc-orangeRed-10 { background-color: lighten($orangeRed, 45%);}
+
+/*gold*/
+.bgc-gold-100 { background-color: $gold;  color: #121212;}
+.bgc-gold-90 { background-color: lighten($gold,  5%);  color: #121212;}
+.bgc-gold-80 { background-color: lighten($gold, 10%);  color: #121212;}
+.bgc-gold-70 { background-color: lighten($gold, 15%);  color: #121212;}
+.bgc-gold-60 { background-color: lighten($gold, 20%); color: #121212;}
+.bgc-gold-50 { background-color: lighten($gold, 25%); color: #121212;}
+.bgc-gold-40 { background-color: lighten($gold, 30%);}
+.bgc-gold-30 { background-color: lighten($gold, 35%);}
+.bgc-gold-20 { background-color: lighten($gold, 40%);}
+.bgc-gold-10 { background-color: lighten($gold, 45%);}
+[class*="bgc-gold"] {
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.45);
+}
+/*violet*/
+.bgc-violet-100 { background-color: $violet; color: $white;}
+.bgc-violet-90 { background-color: lighten($violet,  5%); color: $white;}
+.bgc-violet-80 { background-color: lighten($violet, 10%);  color:$white;}
+.bgc-violet-70 { background-color: lighten($violet, 15%);  color:$white;}
+.bgc-violet-60 { background-color: lighten($violet, 20%); color:$white;}
+.bgc-violet-50 { background-color: lighten($violet, 25%); color:$white;}
+.bgc-violet-40 { background-color: lighten($violet, 30%);}
+.bgc-violet-30 { background-color: lighten($violet, 35%);}
+.bgc-violet-20 { background-color: lighten($violet, 40%);}
+.bgc-violet-10 { background-color: lighten($violet, 45%);}
+
+/*violetRed*/
+.bgc-violetRed-100 { background-color: $violetRed; color: $white;}
+.bgc-violetRed-90 { background-color: lighten($violetRed,  5%); color: $white;}
+.bgc-violetRed-80 { background-color: lighten($violetRed, 10%);  color:$white;}
+.bgc-violetRed-70 { background-color: lighten($violetRed, 15%);  color:$white;}
+.bgc-violetRed-60 { background-color: lighten($violetRed, 20%); color:$white;}
+.bgc-violetRed-50 { background-color: lighten($violetRed, 25%); color:$white;}
+.bgc-violetRed-40 { background-color: lighten($violetRed, 30%);}
+.bgc-violetRed-30 { background-color: lighten($violetRed, 35%);}
+.bgc-violetRed-20 { background-color: lighten($violetRed, 40%);}
+.bgc-violetRed-10 { background-color: lighten($violetRed, 45%);}
+
+/*orchid*/
+.bgc-orchid-100 { background-color: $orchid; color: $white;}
+.bgc-orchid-90 { background-color: lighten($orchid,  5%); color: $white;}
+.bgc-orchid-80 { background-color: lighten($orchid, 10%);  color:$white;}
+.bgc-orchid-70 { background-color: lighten($orchid, 15%);  color:$white;}
+.bgc-orchid-60 { background-color: lighten($orchid, 20%); color:$white;}
+.bgc-orchid-50 { background-color: lighten($orchid, 25%); color:$white;}
+.bgc-orchid-40 { background-color: lighten($orchid, 30%);}
+.bgc-orchid-30 { background-color: lighten($orchid, 35%);}
+.bgc-orchid-20 { background-color: lighten($orchid, 40%);}
+.bgc-orchid-10 { background-color: lighten($orchid, 45%);}
+
+/*brown*/
+.bgc-brown-100 { background-color: $brown; color: $white;}
+.bgc-brown-90 { background-color: lighten($brown,  5%); color: $white;}
+.bgc-brown-80 { background-color: lighten($brown, 10%); color: $white;}
+.bgc-brown-70 { background-color: lighten($brown, 15%); color: $white;}
+.bgc-brown-60 { background-color: lighten($brown, 20%);}
+.bgc-brown-50 { background-color: lighten($brown, 25%);}
+.bgc-brown-40 { background-color: lighten($brown, 30%);}
+.bgc-brown-30 { background-color: lighten($brown, 35%);}
+.bgc-brown-20 { background-color: lighten($brown, 40%);}
+.bgc-brown-10 { background-color: lighten($brown, 45%);}
+
+
+/*tan*/
+.bgc-tan-100 { background-color: $tan; color: $white;}
+.bgc-tan-90 { background-color: lighten($tan,  5%); color: $white;}
+.bgc-tan-80 { background-color: lighten($tan, 10%); color: $white;}
+.bgc-tan-70 { background-color: lighten($tan, 15%);}
+.bgc-tan-60 { background-color: lighten($tan, 20%);}
+.bgc-tan-50 { background-color: lighten($tan, 25%);}
+.bgc-tan-40 { background-color: lighten($tan, 30%);}
+.bgc-tan-30 { background-color: lighten($tan, 35%);}
+.bgc-tan-20 { background-color: lighten($tan, 40%);}
+.bgc-tan-10 { background-color: lighten($tan, 45%);}
+
+/*gray*/
+.bgc-gray-100 { background-color: $gray; color: $white;}
+.bgc-gray-90 { background-color: lighten($gray,  5%); color: $white;}
+.bgc-gray-80 { background-color: lighten($gray, 10%); color: $white;}
+.bgc-gray-70 { background-color: lighten($gray, 15%);}
+.bgc-gray-60 { background-color: lighten($gray, 20%);}
+.bgc-gray-50 { background-color: lighten($gray, 25%);}
+.bgc-gray-40 { background-color: lighten($gray, 30%);}
+.bgc-gray-30 { background-color: lighten($gray, 35%);}
+.bgc-gray-20 { background-color: lighten($gray, 40%);}
+.bgc-gray-10 { background-color: lighten($gray, 45%);}
+
+/*slateGray*/
+.bgc-slateGray-100 { background-color: $slateGray; color: $white;}
+.bgc-slateGray-90 { background-color: lighten($slateGray,  5%); color: $white;}
+.bgc-slateGray-80 { background-color: lighten($slateGray, 10%); color: $white;}
+.bgc-slateGray-70 { background-color: lighten($slateGray, 15%);}
+.bgc-slateGray-60 { background-color: lighten($slateGray, 20%);}
+.bgc-slateGray-50 { background-color: lighten($slateGray, 25%);}
+.bgc-slateGray-40 { background-color: lighten($slateGray, 30%);}
+.bgc-slateGray-30 { background-color: lighten($slateGray, 35%);}
+.bgc-slateGray-20 { background-color: lighten($slateGray, 40%);}
+.bgc-slateGray-10 { background-color: lighten($slateGray, 45%);}
+
+/*red*/
+.bgc-red-100 { background-color: $red; color: $white;}
+.bgc-red-90 { background-color: lighten($red,  5%); color: $white;}
+.bgc-red-80 { background-color: lighten($red, 10%); color: $white;}
+.bgc-red-70 { background-color: lighten($red, 15%); color: $white;}
+.bgc-red-60 { background-color: lighten($red, 20%);}
+.bgc-red-50 { background-color: lighten($red, 25%);}
+.bgc-red-40 { background-color: lighten($red, 30%);}
+.bgc-red-30 { background-color: lighten($red, 35%);}
+.bgc-red-20 { background-color: lighten($red, 40%);}
+.bgc-red-10 { background-color: lighten($red, 45%);}
+
+/*black*/
+.bgc-black-100 { background-color: $black; color: $white;}
+.bgc-black-90 { background-color: lighten($black,  5%); color: $white;}
+.bgc-black-80 { background-color: lighten($black, 10%); color: $white;}
+.bgc-black-70 { background-color: lighten($black, 15%); color: $white;}
+.bgc-black-60 { background-color: lighten($black, 20%);}
+.bgc-black-50 { background-color: lighten($black, 25%);}
+.bgc-black-40 { background-color: lighten($black, 30%);}
+.bgc-black-30 { background-color: lighten($black, 35%);}
+.bgc-black-20 { background-color: lighten($black, 40%);}
+.bgc-black-10 { background-color: lighten($black, 45%);}
+
+/*seeblue*/
+.bgc-seeblue-100 { background-color: $seeblue; color: $white;}
+.bgc-seeblue-90 { background-color: lighten($seeblue,  5%); color: $white;}
+.bgc-seeblue-80 { background-color: lighten($seeblue, 10%); color: $white;}
+.bgc-seeblue-70 { background-color: lighten($seeblue, 15%); color: $white;}
+.bgc-seeblue-60 { background-color: lighten($seeblue, 20%);}
+.bgc-seeblue-50 { background-color: lighten($seeblue, 25%);}
+.bgc-seeblue-40 { background-color: lighten($seeblue, 30%);}
+.bgc-seeblue-30 { background-color: lighten($seeblue, 35%);}
+.bgc-seeblue-20 { background-color: lighten($seeblue, 40%);}
+.bgc-seeblue-10 { background-color: lighten($seeblue, 45%);}
+
+/*white*/
+.bgc-white { background-color: $white;}
+
+/*below font colors setting*/
+
+$crimson  : #dc143c;
+$pink: #e51284;
+$indigo: #4B0082;
+$navy:#2b2bba;
+$deepBlue: #191970;
+$slateBlue:#1b81e5;
+$skyBlue: #00aee6;
+$cyan: #167374;
+$forestGreen: #228b22;
+$seaGreen: #37b371;
+$yellowGreen:#8ab82d;
+$gold:#ffd700;
+$yellowOrange :#ffbf00;
+$violet: #e435e4;
+$violetRed: #d0168b;
+$orchid: #b549d0;
+$orange: #ffa500;
+$orangeRed: #ff4500;
+$brown: #a52a2a;
+$tan: #b88747;
+$gray: #808080;
+$slateGray: #7e8c9b;
+$red: #e60000;
+$black: #000000;
+$white: #ffffff;
+
+/*crimson*/
+.text-crimson-100 { color: $crimson  ;}
+.text-crimson-90 { color: lighten($crimson  ,  5%);}
+.text-crimson-80 { color: lighten($crimson  , 10%);}
+.text-crimson-70 { color: lighten($crimson  , 15%);}
+.text-crimson-60 { color: lighten($crimson  , 20%);}
+.text-crimson-50 { color: lighten($crimson  , 25%);}
+.text-crimson-40 { color: lighten($crimson  , 30%);}
+.text-crimson-30 { color: lighten($crimson  , 35%);}
+.text-crimson-20 { color: lighten($crimson  , 40%);}
+.text-crimson-10 { color: lighten($crimson  , 45%);}
+
+/*pink*/
+.text-pink-100 { color: $pink  ;}
+.text-pink-90 { color: lighten($pink  ,  5%);}
+.text-pink-80 { color: lighten($pink  , 10%);}
+.text-pink-70 { color: lighten($pink  , 15%);}
+.text-pink-60 { color: lighten($pink  , 20%);}
+.text-pink-50 { color: lighten($pink  , 25%);}
+.text-pink-40 { color: lighten($pink  , 30%);}
+.text-pink-30 { color: lighten($pink  , 35%);}
+.text-pink-20 { color: lighten($pink  , 40%);}
+.text-pink-10 { color: lighten($pink  , 45%);}
+/*indigo*/
+.text-indigo-100 { color: $indigo;}
+.text-indigo-90 { color: lighten($indigo,  5%);}
+.text-indigo-80 { color: lighten($indigo, 10%);}
+.text-indigo-70 { color: lighten($indigo, 15%);}
+.text-indigo-60 { color: lighten($indigo, 20%);}
+.text-indigo-50 { color: lighten($indigo, 25%);}
+.text-indigo-40 { color: lighten($indigo, 30%);}
+.text-indigo-30 { color: lighten($indigo, 35%);}
+.text-indigo-20 { color: lighten($indigo, 40%);}
+.text-indigo-10 { color: lighten($indigo, 45%);}
+
+/*navy*/
+.text-navy-100 { color: $navy;}
+.text-navy-90 { color: lighten($navy,  5%);}
+.text-navy-80 { color: lighten($navy, 10%);}
+.text-navy-70 { color: lighten($navy, 15%);}
+.text-navy-60 { color: lighten($navy, 20%);}
+.text-navy-50 { color: lighten($navy, 25%);}
+.text-navy-40 { color: lighten($navy, 30%);}
+.text-navy-30 { color: lighten($navy, 35%);}
+.text-navy-20 { color: lighten($navy, 40%);}
+.text-navy-10 { color: lighten($navy, 45%);}
+
+/*deepBlue*/
+.text-deepBlue-100 { color: $deepBlue;}
+.text-deepBlue-90 { color: lighten($deepBlue,  5%);}
+.text-deepBlue-80 { color: lighten($deepBlue, 10%);}
+.text-deepBlue-70 { color: lighten($deepBlue, 15%);}
+.text-deepBlue-60 { color: lighten($deepBlue, 20%);}
+.text-deepBlue-50 { color: lighten($deepBlue, 25%);}
+.text-deepBlue-40 { color: lighten($deepBlue, 30%);}
+.text-deepBlue-30 { color: lighten($deepBlue, 35%);}
+.text-deepBlue-20 { color: lighten($deepBlue, 40%);}
+.text-deepBlue-10 { color: lighten($deepBlue, 45%);}
+
+/*slateBlue*/
+.text-slateBlue-100 { color: $slateBlue;}
+.text-slateBlue-90 { color: lighten($slateBlue,  5%);}
+.text-slateBlue-80 { color: lighten($slateBlue, 10%);}
+.text-slateBlue-70 { color: lighten($slateBlue, 15%);}
+.text-slateBlue-60 { color: lighten($slateBlue, 20%);}
+.text-slateBlue-50 { color: lighten($slateBlue, 25%);}
+.text-slateBlue-40 { color: lighten($slateBlue, 30%);}
+.text-slateBlue-30 { color: lighten($slateBlue, 35%);}
+.text-slateBlue-20 { color: lighten($slateBlue, 40%);}
+.text-slateBlue-10 { color: lighten($slateBlue, 45%);}
+
+/*skyBlue*/
+.text-skyBlue-100 { color: $skyBlue;}
+.text-skyBlue-90 { color: lighten($skyBlue,  5%);}
+.text-skyBlue-80 { color: lighten($skyBlue, 10%);}
+.text-skyBlue-70 { color: lighten($skyBlue, 15%);}
+.text-skyBlue-60 { color: lighten($skyBlue, 20%);}
+.text-skyBlue-50 { color: lighten($skyBlue, 25%);}
+.text-skyBlue-40 { color: lighten($skyBlue, 30%);}
+.text-skyBlue-30 { color: lighten($skyBlue, 35%);}
+.text-skyBlue-20 { color: lighten($skyBlue, 40%);}
+.text-skyBlue-10 { color: lighten($skyBlue, 45%);}
+
+/*cyan*/
+.text-cyan-100 { color: $cyan;}
+.text-cyan-90 { color: lighten($cyan,  5%);}
+.text-cyan-80 { color: lighten($cyan, 10%);}
+.text-cyan-70 { color: lighten($cyan, 15%);}
+.text-cyan-60 { color: lighten($cyan, 20%);}
+.text-cyan-50 { color: lighten($cyan, 25%);}
+.text-cyan-40 { color: lighten($cyan, 30%);}
+.text-cyan-30 { color: lighten($cyan, 35%);}
+.text-cyan-20 { color: lighten($cyan, 40%);}
+.text-cyan-10 { color: lighten($cyan, 45%);}
+
+/*forestGreen*/
+.text-forestGreen-100 { color: $forestGreen;}
+.text-forestGreen-90 { color: lighten($forestGreen,  5%);}
+.text-forestGreen-80 { color: lighten($forestGreen, 10%);}
+.text-forestGreen-70 { color: lighten($forestGreen, 15%);}
+.text-forestGreen-60 { color: lighten($forestGreen, 20%); }
+.text-forestGreen-50 { color: lighten($forestGreen, 25%);}
+.text-forestGreen-40 { color: lighten($forestGreen, 30%);}
+.text-forestGreen-30 { color: lighten($forestGreen, 35%);}
+.text-forestGreen-20 { color: lighten($forestGreen, 40%);}
+.text-forestGreen-10 { color: lighten($forestGreen, 45%);}
+
+/*seaGreen*/
+.text-seaGreen-100 { color: $seaGreen;}
+.text-seaGreen-90 { color: lighten($seaGreen,  5%);}
+.text-seaGreen-80 { color: lighten($seaGreen, 10%);}
+.text-seaGreen-70 { color: lighten($seaGreen, 15%);}
+.text-seaGreen-60 { color: lighten($seaGreen, 20%);}
+.text-seaGreen-50 { color: lighten($seaGreen, 25%);}
+.text-seaGreen-40 { color: lighten($seaGreen, 30%);}
+.text-seaGreen-30 { color: lighten($seaGreen, 35%);}
+.text-seaGreen-20 { color: lighten($seaGreen, 40%);}
+.text-seaGreen-10 { color: lighten($seaGreen, 45%);}
+
+/*yellowGreen*/
+.text-yellowGreen-100 { color: $yellowGreen;}
+.text-yellowGreen-90 { color: lighten($yellowGreen,  5%);}
+.text-yellowGreen-80 { color: lighten($yellowGreen, 10%);}
+.text-yellowGreen-70 { color: lighten($yellowGreen, 15%);}
+.text-yellowGreen-60 { color: lighten($yellowGreen, 20%);}
+.text-yellowGreen-50 { color: lighten($yellowGreen, 25%);}
+.text-yellowGreen-40 { color: lighten($yellowGreen, 30%);}
+.text-yellowGreen-30 { color: lighten($yellowGreen, 35%);}
+.text-yellowGreen-20 { color: lighten($yellowGreen, 40%);}
+.text-yellowGreen-10 { color: lighten($yellowGreen, 45%);}
+
+/*yellowOrange*/
+.text-yellowOrange-100 { color: $yellowOrange;}
+.text-yellowOrange-90 { color: lighten($yellowOrange,  5%);}
+.text-yellowOrange-80 { color: lighten($yellowOrange, 10%);}
+.text-yellowOrange-70 { color: lighten($yellowOrange, 15%);}
+.text-yellowOrange-60 { color: lighten($yellowOrange, 20%);}
+.text-yellowOrange-50 { color: lighten($yellowOrange, 25%);}
+.text-yellowOrange-40 { color: lighten($yellowOrange, 30%);}
+.text-yellowOrange-30 { color: lighten($yellowOrange, 35%);}
+.text-yellowOrange-20 { color: lighten($yellowOrange, 40%);}
+.text-yellowOrange-10 { color: lighten($yellowOrange, 45%);}
+
+/*orange*/
+.text-orange-100 { color: $orange;}
+.text-orange-90 { color: lighten($orange,  5%);}
+.text-orange-80 { color: lighten($orange, 10%); }
+.text-orange-70 { color: lighten($orange, 15%); }
+.text-orange-60 { color: lighten($orange, 20%);}
+.text-orange-50 { color: lighten($orange, 25%);}
+.text-orange-40 { color: lighten($orange, 30%);}
+.text-orange-30 { color: lighten($orange, 35%);}
+.text-orange-20 { color: lighten($orange, 40%);}
+.text-orange-10 { color: lighten($orange, 45%);}
+
+/*orangeRed*/
+.text-orangeRed-100 { color: $orangeRed;}
+.text-orangeRed-90 { color: lighten($orangeRed,  5%);}
+.text-orangeRed-80 { color: lighten($orangeRed, 10%); }
+.text-orangeRed-70 { color: lighten($orangeRed, 15%); }
+.text-orangeRed-60 { color: lighten($orangeRed, 20%);}
+.text-orangeRed-50 { color: lighten($orangeRed, 25%);}
+.text-orangeRed-40 { color: lighten($orangeRed, 30%);}
+.text-orangeRed-30 { color: lighten($orangeRed, 35%);}
+.text-orangeRed-20 { color: lighten($orangeRed, 40%);}
+.text-orangeRed-10 { color: lighten($orangeRed, 45%);}
+
+/*gold*/
+.text-gold-100 { color: $gold; }
+.text-gold-90 { color: lighten($gold,  5%); }
+.text-gold-80 { color: lighten($gold, 10%); }
+.text-gold-70 { color: lighten($gold, 15%); }
+.text-gold-60 { color: lighten($gold, 20%);}
+.text-gold-50 { color: lighten($gold, 25%);}
+.text-gold-40 { color: lighten($gold, 30%);}
+.text-gold-30 { color: lighten($gold, 35%);}
+.text-gold-20 { color: lighten($gold, 40%);}
+.text-gold-10 { color: lighten($gold, 45%);}
+
+/*violet*/
+.text-violet-100 { color: $violet;}
+.text-violet-90 { color: lighten($violet,  5%);}
+.text-violet-80 { color: lighten($violet, 10%); }
+.text-violet-70 { color: lighten($violet, 15%); }
+.text-violet-60 { color: lighten($violet, 20%);}
+.text-violet-50 { color: lighten($violet, 25%);}
+.text-violet-40 { color: lighten($violet, 30%);}
+.text-violet-30 { color: lighten($violet, 35%);}
+.text-violet-20 { color: lighten($violet, 40%);}
+.text-violet-10 { color: lighten($violet, 45%);}
+
+/*violetRed*/
+.text-violetRed-100 { color: $violetRed;}
+.text-violetRed-90 { color: lighten($violetRed,  5%);}
+.text-violetRed-80 { color: lighten($violetRed, 10%); }
+.text-violetRed-70 { color: lighten($violetRed, 15%); }
+.text-violetRed-60 { color: lighten($violetRed, 20%);}
+.text-violetRed-50 { color: lighten($violetRed, 25%);}
+.text-violetRed-40 { color: lighten($violetRed, 30%);}
+.text-violetRed-30 { color: lighten($violetRed, 35%);}
+.text-violetRed-20 { color: lighten($violetRed, 40%);}
+.text-violetRed-10 { color: lighten($violetRed, 45%);}
+
+/*orchid*/
+.text-orchid-100 { color: $orchid;}
+.text-orchid-90 { color: lighten($orchid,  5%);}
+.text-orchid-80 { color: lighten($orchid, 10%); }
+.text-orchid-70 { color: lighten($orchid, 15%); }
+.text-orchid-60 { color: lighten($orchid, 20%);}
+.text-orchid-50 { color: lighten($orchid, 25%);}
+.text-orchid-40 { color: lighten($orchid, 30%);}
+.text-orchid-30 { color: lighten($orchid, 35%);}
+.text-orchid-20 { color: lighten($orchid, 40%);}
+.text-orchid-10 { color: lighten($orchid, 45%);}
+
+/*brown*/
+.text-brown-100 { color: $brown;}
+.text-brown-90 { color: lighten($brown,  5%);}
+.text-brown-80 { color: lighten($brown, 10%);}
+.text-brown-70 { color: lighten($brown, 15%);}
+.text-brown-60 { color: lighten($brown, 20%);}
+.text-brown-50 { color: lighten($brown, 25%);}
+.text-brown-40 { color: lighten($brown, 30%);}
+.text-brown-30 { color: lighten($brown, 35%);}
+.text-brown-20 { color: lighten($brown, 40%);}
+.text-brown-10 { color: lighten($brown, 45%);}
+
+
+/*tan*/
+.text-tan-100 { color: $tan;}
+.text-tan-90 { color: lighten($tan,  5%);}
+.text-tan-80 { color: lighten($tan, 10%);}
+.text-tan-70 { color: lighten($tan, 15%);}
+.text-tan-60 { color: lighten($tan, 20%);}
+.text-tan-50 { color: lighten($tan, 25%);}
+.text-tan-40 { color: lighten($tan, 30%);}
+.text-tan-30 { color: lighten($tan, 35%);}
+.text-tan-20 { color: lighten($tan, 40%);}
+.text-tan-10 { color: lighten($tan, 45%);}
+
+/*gray*/
+.text-gray-100 { color: $gray;}
+.text-gray-90 { color: lighten($gray,  5%);}
+.text-gray-80 { color: lighten($gray, 10%);}
+.text-gray-70 { color: lighten($gray, 15%);}
+.text-gray-60 { color: lighten($gray, 20%);}
+.text-gray-50 { color: lighten($gray, 25%);}
+.text-gray-40 { color: lighten($gray, 30%);}
+.text-gray-30 { color: lighten($gray, 35%);}
+.text-gray-20 { color: lighten($gray, 40%);}
+.text-gray-10 { color: lighten($gray, 45%);}
+
+/*slateGray*/
+.text-slateGray-100 { color: $slateGray;}
+.text-slateGray-90 { color: lighten($slateGray,  5%);}
+.text-slateGray-80 { color: lighten($slateGray, 10%);}
+.text-slateGray-70 { color: lighten($slateGray, 15%);}
+.text-slateGray-60 { color: lighten($slateGray, 20%);}
+.text-slateGray-50 { color: lighten($slateGray, 25%);}
+.text-slateGray-40 { color: lighten($slateGray, 30%);}
+.text-slateGray-30 { color: lighten($slateGray, 35%);}
+.text-slateGray-20 { color: lighten($slateGray, 40%);}
+.text-slateGray-10 { color: lighten($slateGray, 45%);}
+
+/*red*/
+.text-red-100 { color: $red;}
+.text-red-90 { color: lighten($red,  5%);}
+.text-red-80 { color: lighten($red, 10%);}
+.text-red-70 { color: lighten($red, 15%);}
+.text-red-60 { color: lighten($red, 20%);}
+.text-red-50 { color: lighten($red, 25%);}
+.text-red-40 { color: lighten($red, 30%);}
+.text-red-30 { color: lighten($red, 35%);}
+.text-red-20 { color: lighten($red, 40%);}
+.text-red-10 { color: lighten($red, 45%);}
+
+/*black*/
+.text-black-100 { color: $black;}
+.text-black-90 { color: lighten($black,  5%);}
+.text-black-80 { color: lighten($black, 10%);}
+.text-black-70 { color: lighten($black, 15%);}
+.text-black-60 { color: lighten($black, 20%);}
+.text-black-50 { color: lighten($black, 25%);}
+.text-black-40 { color: lighten($black, 30%);}
+.text-black-30 { color: lighten($black, 35%);}
+.text-black-20 { color: lighten($black, 40%);}
+.text-black-10 { color: lighten($black, 45%);}
+
+/*white*/
+.text-white { color: $white;}

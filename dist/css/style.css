@@ -1,0 +1,9 @@
+@import url("fontello/css/fontello.css"); /*icon圖示使用的css*/
+@import url("../font/font.css");
+@import url("../font2/font2.css");
+@import url("googleSearch.min.css"); 
+@import url("framework.min.css"); /*整個框架的css*/
+@import url("colors-pattern.min.css");
+@import url("ui-btn.min.css"); /*頁面按鈕的css*/
+@import url("fd-menu.min.css"); /*側邊選單欄的css*/
+@import url("ui.min.css"); /*整個頁面的css*/

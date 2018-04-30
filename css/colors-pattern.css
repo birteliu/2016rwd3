@@ -1,0 +1,2149 @@
+@charset "UTF-8";
+/*
+* 2016-01
+* for GJ RWD design course
+* created by Hui Fang Wu
+* http://www.fionawu.url.tw/
+*/
+/*crimson*/
+/* line 35, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-100 {
+  background-color: #dc143c;
+  color: #ffffff; }
+
+/* line 36, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-90 {
+  background-color: #eb1f48;
+  color: #ffffff; }
+
+/* line 37, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-80 {
+  background-color: #ed365b;
+  color: #ffffff; }
+
+/* line 38, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-70 {
+  background-color: #ef4e6e;
+  color: #ffffff; }
+
+/* line 39, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-60 {
+  background-color: #f16581;
+  color: #ffffff; }
+
+/* line 40, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-50 {
+  background-color: #f37c94; }
+
+/* line 41, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-40 {
+  background-color: #f594a7; }
+
+/* line 42, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-30 {
+  background-color: #f7abba; }
+
+/* line 43, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-20 {
+  background-color: #fac3ce; }
+
+/* line 44, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-crimson-10 {
+  background-color: #fcdae1; }
+
+/*pink*/
+/* line 47, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-100 {
+  background-color: #db137f;
+  color: #ffffff; }
+
+/* line 48, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-90 {
+  background-color: #eb1c8c;
+  color: #ffffff; }
+
+/* line 49, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-80 {
+  background-color: #ed3498;
+  color: #ffffff; }
+
+/* line 50, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-70 {
+  background-color: #ef4ba4;
+  color: #ffffff; }
+
+/* line 51, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-60 {
+  background-color: #f163b0;
+  color: #ffffff; }
+
+/* line 52, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-50 {
+  background-color: #f37abc; }
+
+/* line 53, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-40 {
+  background-color: #f691c7; }
+
+/* line 54, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-30 {
+  background-color: #f8a9d3; }
+
+/* line 55, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-20 {
+  background-color: #f9bcdd; }
+
+/* line 56, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-pink-10 {
+  background-color: #fbd3e9; }
+
+/*indigo*/
+/* line 59, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-100 {
+  background-color: #5a009c;
+  color: #ffffff; }
+
+/* line 60, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-90 {
+  background-color: #6900b6;
+  color: #ffffff; }
+
+/* line 61, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-80 {
+  background-color: #7700cf;
+  color: #ffffff; }
+
+/* line 62, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-70 {
+  background-color: #8600e9;
+  color: #ffffff; }
+
+/* line 63, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-60 {
+  background-color: #9403ff;
+  color: #ffffff; }
+
+/* line 64, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-50 {
+  background-color: #9f1dff;
+  color: #ffffff; }
+
+/* line 65, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-40 {
+  background-color: #aa36ff;
+  color: #ffffff; }
+
+/* line 66, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-30 {
+  background-color: #b550ff; }
+
+/* line 67, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-20 {
+  background-color: #c069ff; }
+
+/* line 68, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-indigo-10 {
+  background-color: #d59cff; }
+
+/*navy*/
+/* line 71, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-100 {
+  background-color: #2b2bba;
+  color: #ffffff; }
+
+/* line 72, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-90 {
+  background-color: #3030cf;
+  color: #ffffff; }
+
+/* line 73, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-80 {
+  background-color: #4444d4;
+  color: #ffffff; }
+
+/* line 74, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-70 {
+  background-color: #5959d9;
+  color: #ffffff; }
+
+/* line 75, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-60 {
+  background-color: #6e6edd;
+  color: #ffffff; }
+
+/* line 76, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-50 {
+  background-color: #8282e2;
+  color: #ffffff; }
+
+/* line 77, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-40 {
+  background-color: #9797e7; }
+
+/* line 78, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-30 {
+  background-color: #acacec; }
+
+/* line 79, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-20 {
+  background-color: #c0c0f1; }
+
+/* line 80, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-navy-10 {
+  background-color: #d5d5f5; }
+
+/*deepBlue*/
+/* line 83, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-100 {
+  background-color: #212369;
+  color: #ffffff; }
+
+/* line 84, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-90 {
+  background-color: #27297c;
+  color: #ffffff; }
+
+/* line 85, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-80 {
+  background-color: #2d3090;
+  color: #ffffff; }
+
+/* line 86, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-70 {
+  background-color: #3336a3;
+  color: #ffffff; }
+
+/* line 87, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-60 {
+  background-color: #393db7;
+  color: #ffffff; }
+
+/* line 88, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-50 {
+  background-color: #4549c5;
+  color: #ffffff; }
+
+/* line 89, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-40 {
+  background-color: #585ccb;
+  color: #ffffff; }
+
+/* line 90, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-30 {
+  background-color: #6c6fd1;
+  color: #ffffff; }
+
+/* line 91, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-20 {
+  background-color: #7f82d7; }
+
+/* line 92, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-deepBlue-10 {
+  background-color: #a6a8e3; }
+
+/*slateBlue*/
+/* line 95, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-100 {
+  background-color: #4635b0;
+  color: #ffffff; }
+
+/* line 96, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-90 {
+  background-color: #4e3bc4;
+  color: #ffffff; }
+
+/* line 97, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-80 {
+  background-color: #5f4eca;
+  color: #ffffff; }
+
+/* line 98, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-70 {
+  background-color: #7162d0;
+  color: #ffffff; }
+
+/* line 99, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-60 {
+  background-color: #8375d6;
+  color: #ffffff; }
+
+/* line 100, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-50 {
+  background-color: #9489db; }
+
+/* line 101, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-40 {
+  background-color: #a69de1; }
+
+/* line 102, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-30 {
+  background-color: #b8b0e7; }
+
+/* line 103, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-20 {
+  background-color: #cac4ed; }
+
+/* line 104, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateBlue-10 {
+  background-color: #dbd7f3; }
+
+/*skyBlue*/
+/* line 107, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-100 {
+  background-color: #00aee4;
+  color: #ffffff; }
+
+/* line 108, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-90 {
+  background-color: #00c1fe;
+  color: #ffffff; }
+
+/* line 109, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-80 {
+  background-color: #18c8ff;
+  color: #ffffff; }
+
+/* line 110, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-70 {
+  background-color: #32ceff;
+  color: #ffffff; }
+
+/* line 111, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-60 {
+  background-color: #4bd4ff;
+  color: #ffffff; }
+
+/* line 112, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-50 {
+  background-color: #65daff; }
+
+/* line 113, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-40 {
+  background-color: #7ee0ff; }
+
+/* line 114, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-30 {
+  background-color: #98e6ff; }
+
+/* line 115, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-20 {
+  background-color: #b1edff; }
+
+/* line 116, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-skyBlue-10 {
+  background-color: #cbf3ff; }
+
+/*cyan*/
+/* line 119, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-100 {
+  background-color: #167374;
+  color: #ffffff; }
+
+/* line 120, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-90 {
+  background-color: #1a8889;
+  color: #ffffff; }
+
+/* line 121, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-80 {
+  background-color: #1e9e9f;
+  color: #ffffff; }
+
+/* line 122, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-70 {
+  background-color: #22b3b4;
+  color: #ffffff; }
+
+/* line 123, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-60 {
+  background-color: #26c8ca; }
+
+/* line 124, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-50 {
+  background-color: #31d6d8; }
+
+/* line 125, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-40 {
+  background-color: #47dbdc; }
+
+/* line 126, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-30 {
+  background-color: #5cdfe0; }
+
+/* line 127, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-20 {
+  background-color: #72e3e4; }
+
+/* line 128, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-cyan-10 {
+  background-color: #b2f0f0; }
+
+/*forestGreen*/
+/* line 131, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-100 {
+  background-color: #228b22;
+  color: #ffffff; }
+
+/* line 132, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-90 {
+  background-color: #279f27;
+  color: #ffffff; }
+
+/* line 133, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-80 {
+  background-color: #2cb42c;
+  color: #ffffff; }
+
+/* line 134, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-70 {
+  background-color: #31c831;
+  color: #ffffff; }
+
+/* line 135, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-60 {
+  background-color: #42d142; }
+
+/* line 136, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-50 {
+  background-color: #57d657; }
+
+/* line 137, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-40 {
+  background-color: #6bdb6b; }
+
+/* line 138, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-30 {
+  background-color: #80e080; }
+
+/* line 139, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-20 {
+  background-color: #94e594; }
+
+/* line 140, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-forestGreen-10 {
+  background-color: #a9eaa9; }
+
+/*seaGreen*/
+/* line 143, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-100 {
+  background-color: #37b371;
+  color: #ffffff; }
+
+/* line 144, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-90 {
+  background-color: #3fc47d;
+  color: #ffffff; }
+
+/* line 145, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-80 {
+  background-color: #53ca8b;
+  color: #ffffff; }
+
+/* line 146, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-70 {
+  background-color: #66d098;
+  color: #ffffff; }
+
+/* line 147, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-60 {
+  background-color: #7ad6a5; }
+
+/* line 148, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-50 {
+  background-color: #8ddcb2; }
+
+/* line 149, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-40 {
+  background-color: #a1e2bf; }
+
+/* line 150, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-30 {
+  background-color: #b4e8cd; }
+
+/* line 151, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-20 {
+  background-color: #c8eeda; }
+
+/* line 152, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seaGreen-10 {
+  background-color: #dbf4e7; }
+
+/*yellowGreen*/
+/* line 155, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-100 {
+  background-color: #8ab82d;
+  color: #ffffff; }
+
+/* line 156, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-90 {
+  background-color: #99cc32;
+  color: #ffffff; }
+
+/* line 157, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-80 {
+  background-color: #a4d246;
+  color: #ffffff; }
+
+/* line 158, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-70 {
+  background-color: #aed75b;
+  color: #ffffff; }
+
+/* line 159, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-60 {
+  background-color: #b8dc6f; }
+
+/* line 160, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-50 {
+  background-color: #c2e184; }
+
+/* line 161, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-40 {
+  background-color: #cce698; }
+
+/* line 162, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-30 {
+  background-color: #d6ebad; }
+
+/* line 163, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-20 {
+  background-color: #e0f0c1; }
+
+/* line 164, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowGreen-10 {
+  background-color: #e6f3cd; }
+
+/*yellowOrange*/
+/* line 167, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-100 {
+  background-color: #ffbf00;
+  color: #ffffff; }
+
+/* line 168, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-90 {
+  background-color: #ffc51a;
+  color: #ffffff; }
+
+/* line 169, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-80 {
+  background-color: #ffcc33;
+  color: #ffffff; }
+
+/* line 170, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-70 {
+  background-color: #ffd24d;
+  color: #ffffff; }
+
+/* line 171, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-60 {
+  background-color: #ffd966; }
+
+/* line 172, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-50 {
+  background-color: #ffdf80; }
+
+/* line 173, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-40 {
+  background-color: #ffe599; }
+
+/* line 174, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-30 {
+  background-color: #ffecb3; }
+
+/* line 175, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-20 {
+  background-color: #fff2cc; }
+
+/* line 176, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-yellowOrange-10 {
+  background-color: #fff6db; }
+
+/*orange*/
+/* line 179, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-100 {
+  background-color: #ff8c00;
+  color: #ffffff; }
+
+/* line 180, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-90 {
+  background-color: #ff981a;
+  color: #ffffff; }
+
+/* line 181, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-80 {
+  background-color: #ffa333;
+  color: #ffffff; }
+
+/* line 182, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-70 {
+  background-color: #ffaf4d; }
+
+/* line 183, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-60 {
+  background-color: #ffba66; }
+
+/* line 184, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-50 {
+  background-color: #ffc680; }
+
+/* line 185, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-40 {
+  background-color: #ffd199; }
+
+/* line 186, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-30 {
+  background-color: #ffddb3; }
+
+/* line 187, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-20 {
+  background-color: #ffe8cc; }
+
+/* line 188, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orange-10 {
+  background-color: #fff3e5; }
+
+/*orangeRed*/
+/* line 191, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-100 {
+  background-color: #ff4500;
+  color: #ffffff; }
+
+/* line 192, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-90 {
+  background-color: #ff581a;
+  color: #ffffff; }
+
+/* line 193, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-80 {
+  background-color: #ff6a33;
+  color: #ffffff; }
+
+/* line 194, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-70 {
+  background-color: #ff7d4d;
+  color: #ffffff; }
+
+/* line 195, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-60 {
+  background-color: #ff8f66; }
+
+/* line 196, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-50 {
+  background-color: #ffa280; }
+
+/* line 197, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-40 {
+  background-color: #ffb599; }
+
+/* line 198, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-30 {
+  background-color: #ffc7b3; }
+
+/* line 199, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-20 {
+  background-color: #ffdacc; }
+
+/* line 200, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orangeRed-10 {
+  background-color: #ffece5; }
+
+/*gold*/
+/* line 203, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-100 {
+  background-color: #ffd700;
+  color: #121212; }
+
+/* line 204, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-90 {
+  background-color: #ffdb1a;
+  color: #121212; }
+
+/* line 205, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-80 {
+  background-color: #ffdf33;
+  color: #121212; }
+
+/* line 206, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-70 {
+  background-color: #ffe34d;
+  color: #121212; }
+
+/* line 207, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-60 {
+  background-color: #ffe766;
+  color: #121212; }
+
+/* line 208, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-50 {
+  background-color: #ffeb80;
+  color: #121212; }
+
+/* line 209, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-40 {
+  background-color: #ffef99; }
+
+/* line 210, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-30 {
+  background-color: #fff3b3; }
+
+/* line 211, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-20 {
+  background-color: #fff7cc; }
+
+/* line 212, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gold-10 {
+  background-color: #fffbe5; }
+
+/* line 213, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+[class*="bgc-gold"] {
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45); }
+
+/*violet*/
+/* line 217, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-100 {
+  background-color: #ca1bca;
+  color: #ffffff; }
+
+/* line 218, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-90 {
+  background-color: #e01ee0;
+  color: #ffffff; }
+
+/* line 219, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-80 {
+  background-color: #e434e4;
+  color: #ffffff; }
+
+/* line 220, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-70 {
+  background-color: #e74be7;
+  color: #ffffff; }
+
+/* line 221, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-60 {
+  background-color: #ea61ea;
+  color: #ffffff; }
+
+/* line 222, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-50 {
+  background-color: #ed78ed;
+  color: #ffffff; }
+
+/* line 223, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-40 {
+  background-color: #f08ef0; }
+
+/* line 224, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-30 {
+  background-color: #f3a5f3; }
+
+/* line 225, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-20 {
+  background-color: #f6bbf6; }
+
+/* line 226, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violet-10 {
+  background-color: #f9d2f9; }
+
+/*violetRed*/
+/* line 229, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-100 {
+  background-color: #d0168b;
+  color: #ffffff; }
+
+/* line 230, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-90 {
+  background-color: #e7199a;
+  color: #ffffff; }
+
+/* line 231, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-80 {
+  background-color: #e930a4;
+  color: #ffffff; }
+
+/* line 232, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-70 {
+  background-color: #ec47ae;
+  color: #ffffff; }
+
+/* line 233, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-60 {
+  background-color: #ee5eb9;
+  color: #ffffff; }
+
+/* line 234, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-50 {
+  background-color: #f075c3;
+  color: #ffffff; }
+
+/* line 235, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-40 {
+  background-color: #f38ccd; }
+
+/* line 236, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-30 {
+  background-color: #f5a3d7; }
+
+/* line 237, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-20 {
+  background-color: #f8bae1; }
+
+/* line 238, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-violetRed-10 {
+  background-color: #fad1eb; }
+
+/*orchid*/
+/* line 241, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-100 {
+  background-color: #68228b;
+  color: #ffffff; }
+
+/* line 242, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-90 {
+  background-color: #77279f;
+  color: #ffffff; }
+
+/* line 243, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-80 {
+  background-color: #872cb4;
+  color: #ffffff; }
+
+/* line 244, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-70 {
+  background-color: #9631c8;
+  color: #ffffff; }
+
+/* line 245, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-60 {
+  background-color: #a142d1;
+  color: #ffffff; }
+
+/* line 246, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-50 {
+  background-color: #ab57d6;
+  color: #ffffff; }
+
+/* line 247, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-40 {
+  background-color: #b66bdb; }
+
+/* line 248, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-30 {
+  background-color: #c080e0; }
+
+/* line 249, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-20 {
+  background-color: #ca94e5; }
+
+/* line 250, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-orchid-10 {
+  background-color: #d4a9ea; }
+
+/*brown*/
+/* line 253, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-100 {
+  background-color: #a52a2a;
+  color: #ffffff; }
+
+/* line 254, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-90 {
+  background-color: #b92f2f;
+  color: #ffffff; }
+
+/* line 255, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-80 {
+  background-color: #cc3636;
+  color: #ffffff; }
+
+/* line 256, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-70 {
+  background-color: #d14a4a;
+  color: #ffffff; }
+
+/* line 257, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-60 {
+  background-color: #d65f5f; }
+
+/* line 258, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-50 {
+  background-color: #db7373; }
+
+/* line 259, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-40 {
+  background-color: #e18787; }
+
+/* line 260, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-30 {
+  background-color: #e69c9c; }
+
+/* line 261, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-20 {
+  background-color: #ebb0b0; }
+
+/* line 262, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-brown-10 {
+  background-color: #f0c4c4; }
+
+/*tan*/
+/* line 266, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-100 {
+  background-color: #b88747;
+  color: #ffffff; }
+
+/* line 267, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-90 {
+  background-color: #bf9359;
+  color: #ffffff; }
+
+/* line 268, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-80 {
+  background-color: #c69f6c;
+  color: #ffffff; }
+
+/* line 269, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-70 {
+  background-color: #cdab7e; }
+
+/* line 270, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-60 {
+  background-color: #d4b791; }
+
+/* line 271, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-50 {
+  background-color: #dbc3a3; }
+
+/* line 272, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-40 {
+  background-color: #e3cfb5; }
+
+/* line 273, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-30 {
+  background-color: #eadbc8; }
+
+/* line 274, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-20 {
+  background-color: #f1e7da; }
+
+/* line 275, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-tan-10 {
+  background-color: #f8f3ed; }
+
+/*gray*/
+/* line 278, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-100 {
+  background-color: #808080;
+  color: #ffffff; }
+
+/* line 279, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-90 {
+  background-color: #8d8d8d;
+  color: #ffffff; }
+
+/* line 280, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-80 {
+  background-color: #9a9a9a;
+  color: #ffffff; }
+
+/* line 281, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-70 {
+  background-color: #a6a6a6; }
+
+/* line 282, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-60 {
+  background-color: #b3b3b3; }
+
+/* line 283, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-50 {
+  background-color: silver; }
+
+/* line 284, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-40 {
+  background-color: #cccccc; }
+
+/* line 285, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-30 {
+  background-color: #d9d9d9; }
+
+/* line 286, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-20 {
+  background-color: #e6e6e6; }
+
+/* line 287, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-gray-10 {
+  background-color: #f3f3f3; }
+
+/*slateGray*/
+/* line 290, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-100 {
+  background-color: #647381;
+  color: #ffffff; }
+
+/* line 291, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-90 {
+  background-color: #6f808f;
+  color: #ffffff; }
+
+/* line 292, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-80 {
+  background-color: #7d8d9b;
+  color: #ffffff; }
+
+/* line 293, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-70 {
+  background-color: #8c99a6; }
+
+/* line 294, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-60 {
+  background-color: #9aa6b1; }
+
+/* line 295, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-50 {
+  background-color: #a9b3bc; }
+
+/* line 296, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-40 {
+  background-color: #b7bfc7; }
+
+/* line 297, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-30 {
+  background-color: #c5ccd2; }
+
+/* line 298, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-20 {
+  background-color: #d4d9dd; }
+
+/* line 299, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-slateGray-10 {
+  background-color: #e2e5e9; }
+
+/*red*/
+/* line 302, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-100 {
+  background-color: #bc1717;
+  color: #ffffff; }
+
+/* line 303, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-90 {
+  background-color: #d31a1a;
+  color: #ffffff; }
+
+/* line 304, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-80 {
+  background-color: #e42222;
+  color: #ffffff; }
+
+/* line 305, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-70 {
+  background-color: #e73939;
+  color: #ffffff; }
+
+/* line 306, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-60 {
+  background-color: #ea4f4f; }
+
+/* line 307, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-50 {
+  background-color: #ec6666; }
+
+/* line 308, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-40 {
+  background-color: #ef7d7d; }
+
+/* line 309, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-30 {
+  background-color: #f29494; }
+
+/* line 310, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-20 {
+  background-color: #f5aaaa; }
+
+/* line 311, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-red-10 {
+  background-color: #f7c1c1; }
+
+/*black*/
+/* line 314, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-100 {
+  background-color: #000000;
+  color: #ffffff; }
+
+/* line 315, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-90 {
+  background-color: #0d0d0d;
+  color: #ffffff; }
+
+/* line 316, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-80 {
+  background-color: #1a1a1a;
+  color: #ffffff; }
+
+/* line 317, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-70 {
+  background-color: #262626;
+  color: #ffffff; }
+
+/* line 318, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-60 {
+  background-color: #333333; }
+
+/* line 319, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-50 {
+  background-color: #404040; }
+
+/* line 320, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-40 {
+  background-color: #4d4d4d; }
+
+/* line 321, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-30 {
+  background-color: #595959; }
+
+/* line 322, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-20 {
+  background-color: #666666; }
+
+/* line 323, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-black-10 {
+  background-color: #737373; }
+
+/*seeblue*/
+/* line 326, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-100 {
+  background-color: #05668D;
+  color: #ffffff; }
+
+/* line 327, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-90 {
+  background-color: #0678a6;
+  color: #ffffff; }
+
+/* line 328, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-80 {
+  background-color: #078abe;
+  color: #ffffff; }
+
+/* line 329, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-70 {
+  background-color: #089bd7;
+  color: #ffffff; }
+
+/* line 330, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-60 {
+  background-color: #08adf0; }
+
+/* line 331, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-50 {
+  background-color: #1bb8f7; }
+
+/* line 332, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-40 {
+  background-color: #33bff8; }
+
+/* line 333, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-30 {
+  background-color: #4cc7f9; }
+
+/* line 334, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-20 {
+  background-color: #64cffa; }
+
+/* line 335, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-seeblue-10 {
+  background-color: #7dd6fa; }
+
+/*white*/
+/* line 338, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.bgc-white {
+  background-color: #ffffff; }
+
+/*below font colors setting*/
+/*crimson*/
+/* line 369, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-100 {
+  color: #dc143c; }
+
+/* line 370, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-90 {
+  color: #eb1f48; }
+
+/* line 371, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-80 {
+  color: #ed365b; }
+
+/* line 372, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-70 {
+  color: #ef4e6e; }
+
+/* line 373, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-60 {
+  color: #f16581; }
+
+/* line 374, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-50 {
+  color: #f37c94; }
+
+/* line 375, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-40 {
+  color: #f594a7; }
+
+/* line 376, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-30 {
+  color: #f7abba; }
+
+/* line 377, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-20 {
+  color: #fac3ce; }
+
+/* line 378, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-crimson-10 {
+  color: #fcdae1; }
+
+/*pink*/
+/* line 381, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-100 {
+  color: #e51284; }
+
+/* line 382, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-90 {
+  color: #ee2390; }
+
+/* line 383, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-80 {
+  color: #f03a9c; }
+
+/* line 384, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-70 {
+  color: #f152a8; }
+
+/* line 385, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-60 {
+  color: #f36ab4; }
+
+/* line 386, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-50 {
+  color: #f581c0; }
+
+/* line 387, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-40 {
+  color: #f799cc; }
+
+/* line 388, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-30 {
+  color: #f9b1d8; }
+
+/* line 389, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-20 {
+  color: #fbc8e4; }
+
+/* line 390, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-pink-10 {
+  color: #fde0ef; }
+
+/*indigo*/
+/* line 392, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-100 {
+  color: #4B0082; }
+
+/* line 393, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-90 {
+  color: #5a009b; }
+
+/* line 394, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-80 {
+  color: #6800b5; }
+
+/* line 395, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-70 {
+  color: #7700ce; }
+
+/* line 396, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-60 {
+  color: #8600e8; }
+
+/* line 397, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-50 {
+  color: #9402ff; }
+
+/* line 398, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-40 {
+  color: #9f1cff; }
+
+/* line 399, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-30 {
+  color: #aa35ff; }
+
+/* line 400, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-20 {
+  color: #b54fff; }
+
+/* line 401, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-indigo-10 {
+  color: #bf68ff; }
+
+/*navy*/
+/* line 404, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-100 {
+  color: #2b2bba; }
+
+/* line 405, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-90 {
+  color: #3030cf; }
+
+/* line 406, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-80 {
+  color: #4444d4; }
+
+/* line 407, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-70 {
+  color: #5959d9; }
+
+/* line 408, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-60 {
+  color: #6e6edd; }
+
+/* line 409, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-50 {
+  color: #8282e2; }
+
+/* line 410, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-40 {
+  color: #9797e7; }
+
+/* line 411, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-30 {
+  color: #acacec; }
+
+/* line 412, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-20 {
+  color: #c0c0f1; }
+
+/* line 413, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-navy-10 {
+  color: #d5d5f5; }
+
+/*deepBlue*/
+/* line 416, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-100 {
+  color: #191970; }
+
+/* line 417, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-90 {
+  color: #1e1e85; }
+
+/* line 418, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-80 {
+  color: #22229a; }
+
+/* line 419, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-70 {
+  color: #2727af; }
+
+/* line 420, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-60 {
+  color: #2c2cc3; }
+
+/* line 421, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-50 {
+  color: #3636d2; }
+
+/* line 422, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-40 {
+  color: #4b4bd7; }
+
+/* line 423, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-30 {
+  color: #6060dc; }
+
+/* line 424, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-20 {
+  color: #7575e0; }
+
+/* line 425, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-deepBlue-10 {
+  color: #8a8ae5; }
+
+/*slateBlue*/
+/* line 428, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-100 {
+  color: #1b81e5; }
+
+/* line 429, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-90 {
+  color: #328ee8; }
+
+/* line 430, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-80 {
+  color: #499aea; }
+
+/* line 431, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-70 {
+  color: #60a7ed; }
+
+/* line 432, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-60 {
+  color: #77b4ef; }
+
+/* line 433, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-50 {
+  color: #8dc0f2; }
+
+/* line 434, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-40 {
+  color: #a4cdf5; }
+
+/* line 435, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-30 {
+  color: #bbdaf7; }
+
+/* line 436, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-20 {
+  color: #d2e6fa; }
+
+/* line 437, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateBlue-10 {
+  color: #e9f3fc; }
+
+/*skyBlue*/
+/* line 440, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-100 {
+  color: #00aee6; }
+
+/* line 441, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-90 {
+  color: #00c1ff; }
+
+/* line 442, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-80 {
+  color: #1ac7ff; }
+
+/* line 443, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-70 {
+  color: #34cdff; }
+
+/* line 444, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-60 {
+  color: #4dd4ff; }
+
+/* line 445, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-50 {
+  color: #66daff; }
+
+/* line 446, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-40 {
+  color: #80e0ff; }
+
+/* line 447, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-30 {
+  color: #9ae6ff; }
+
+/* line 448, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-20 {
+  color: #b3ecff; }
+
+/* line 449, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-skyBlue-10 {
+  color: #ccf3ff; }
+
+/*cyan*/
+/* line 452, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-100 {
+  color: #167374; }
+
+/* line 453, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-90 {
+  color: #1a8889; }
+
+/* line 454, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-80 {
+  color: #1e9e9f; }
+
+/* line 455, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-70 {
+  color: #22b3b4; }
+
+/* line 456, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-60 {
+  color: #26c8ca; }
+
+/* line 457, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-50 {
+  color: #31d6d8; }
+
+/* line 458, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-40 {
+  color: #47dbdc; }
+
+/* line 459, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-30 {
+  color: #5cdfe0; }
+
+/* line 460, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-20 {
+  color: #72e3e4; }
+
+/* line 461, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-cyan-10 {
+  color: #87e7e8; }
+
+/*forestGreen*/
+/* line 464, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-100 {
+  color: #228b22; }
+
+/* line 465, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-90 {
+  color: #279f27; }
+
+/* line 466, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-80 {
+  color: #2cb42c; }
+
+/* line 467, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-70 {
+  color: #31c831; }
+
+/* line 468, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-60 {
+  color: #42d142; }
+
+/* line 469, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-50 {
+  color: #57d657; }
+
+/* line 470, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-40 {
+  color: #6bdb6b; }
+
+/* line 471, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-30 {
+  color: #80e080; }
+
+/* line 472, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-20 {
+  color: #94e594; }
+
+/* line 473, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-forestGreen-10 {
+  color: #a9eaa9; }
+
+/*seaGreen*/
+/* line 476, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-100 {
+  color: #37b371; }
+
+/* line 477, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-90 {
+  color: #3fc47d; }
+
+/* line 478, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-80 {
+  color: #53ca8b; }
+
+/* line 479, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-70 {
+  color: #66d098; }
+
+/* line 480, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-60 {
+  color: #7ad6a5; }
+
+/* line 481, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-50 {
+  color: #8ddcb2; }
+
+/* line 482, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-40 {
+  color: #a1e2bf; }
+
+/* line 483, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-30 {
+  color: #b4e8cd; }
+
+/* line 484, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-20 {
+  color: #c8eeda; }
+
+/* line 485, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-seaGreen-10 {
+  color: #dbf4e7; }
+
+/*yellowGreen*/
+/* line 488, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-100 {
+  color: #8ab82d; }
+
+/* line 489, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-90 {
+  color: #99cc32; }
+
+/* line 490, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-80 {
+  color: #a4d246; }
+
+/* line 491, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-70 {
+  color: #aed75b; }
+
+/* line 492, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-60 {
+  color: #b8dc6f; }
+
+/* line 493, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-50 {
+  color: #c2e184; }
+
+/* line 494, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-40 {
+  color: #cce698; }
+
+/* line 495, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-30 {
+  color: #d6ebad; }
+
+/* line 496, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-20 {
+  color: #e0f0c1; }
+
+/* line 497, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowGreen-10 {
+  color: #ebf5d6; }
+
+/*yellowOrange*/
+/* line 500, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-100 {
+  color: #ffbf00; }
+
+/* line 501, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-90 {
+  color: #ffc51a; }
+
+/* line 502, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-80 {
+  color: #ffcc33; }
+
+/* line 503, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-70 {
+  color: #ffd24d; }
+
+/* line 504, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-60 {
+  color: #ffd966; }
+
+/* line 505, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-50 {
+  color: #ffdf80; }
+
+/* line 506, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-40 {
+  color: #ffe599; }
+
+/* line 507, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-30 {
+  color: #ffecb3; }
+
+/* line 508, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-20 {
+  color: #fff2cc; }
+
+/* line 509, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-yellowOrange-10 {
+  color: #fff9e5; }
+
+/*orange*/
+/* line 512, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-100 {
+  color: #ffa500; }
+
+/* line 513, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-90 {
+  color: #ffae1a; }
+
+/* line 514, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-80 {
+  color: #ffb733; }
+
+/* line 515, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-70 {
+  color: #ffc04d; }
+
+/* line 516, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-60 {
+  color: #ffc966; }
+
+/* line 517, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-50 {
+  color: #ffd280; }
+
+/* line 518, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-40 {
+  color: #ffdb99; }
+
+/* line 519, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-30 {
+  color: #ffe4b3; }
+
+/* line 520, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-20 {
+  color: #ffedcc; }
+
+/* line 521, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orange-10 {
+  color: #fff6e5; }
+
+/*orangeRed*/
+/* line 524, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-100 {
+  color: #ff4500; }
+
+/* line 525, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-90 {
+  color: #ff581a; }
+
+/* line 526, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-80 {
+  color: #ff6a33; }
+
+/* line 527, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-70 {
+  color: #ff7d4d; }
+
+/* line 528, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-60 {
+  color: #ff8f66; }
+
+/* line 529, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-50 {
+  color: #ffa280; }
+
+/* line 530, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-40 {
+  color: #ffb599; }
+
+/* line 531, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-30 {
+  color: #ffc7b3; }
+
+/* line 532, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-20 {
+  color: #ffdacc; }
+
+/* line 533, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orangeRed-10 {
+  color: #ffece5; }
+
+/*gold*/
+/* line 536, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-100 {
+  color: #ffd700; }
+
+/* line 537, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-90 {
+  color: #ffdb1a; }
+
+/* line 538, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-80 {
+  color: #ffdf33; }
+
+/* line 539, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-70 {
+  color: #ffe34d; }
+
+/* line 540, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-60 {
+  color: #ffe766; }
+
+/* line 541, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-50 {
+  color: #ffeb80; }
+
+/* line 542, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-40 {
+  color: #ffef99; }
+
+/* line 543, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-30 {
+  color: #fff3b3; }
+
+/* line 544, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-20 {
+  color: #fff7cc; }
+
+/* line 545, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gold-10 {
+  color: #fffbe5; }
+
+/*violet*/
+/* line 548, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-100 {
+  color: #e435e4; }
+
+/* line 549, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-90 {
+  color: #e74be7; }
+
+/* line 550, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-80 {
+  color: #ea62ea; }
+
+/* line 551, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-70 {
+  color: #ed78ed; }
+
+/* line 552, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-60 {
+  color: #f08ff0; }
+
+/* line 553, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-50 {
+  color: #f3a5f3; }
+
+/* line 554, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-40 {
+  color: #f6bcf6; }
+
+/* line 555, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-30 {
+  color: #f9d2f9; }
+
+/* line 556, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-20 {
+  color: #fce9fc; }
+
+/* line 557, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violet-10 {
+  color: white; }
+
+/*violetRed*/
+/* line 560, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-100 {
+  color: #d0168b; }
+
+/* line 561, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-90 {
+  color: #e7199a; }
+
+/* line 562, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-80 {
+  color: #e930a4; }
+
+/* line 563, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-70 {
+  color: #ec47ae; }
+
+/* line 564, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-60 {
+  color: #ee5eb9; }
+
+/* line 565, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-50 {
+  color: #f075c3; }
+
+/* line 566, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-40 {
+  color: #f38ccd; }
+
+/* line 567, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-30 {
+  color: #f5a3d7; }
+
+/* line 568, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-20 {
+  color: #f8bae1; }
+
+/* line 569, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-violetRed-10 {
+  color: #fad1eb; }
+
+/*orchid*/
+/* line 572, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-100 {
+  color: #b549d0; }
+
+/* line 573, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-90 {
+  color: #bd5dd5; }
+
+/* line 574, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-80 {
+  color: #c572da; }
+
+/* line 575, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-70 {
+  color: #ce86e0; }
+
+/* line 576, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-60 {
+  color: #d69ae5; }
+
+/* line 577, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-50 {
+  color: #deaeea; }
+
+/* line 578, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-40 {
+  color: #e6c3ef; }
+
+/* line 579, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-30 {
+  color: #efd7f5; }
+
+/* line 580, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-20 {
+  color: #f7ebfa; }
+
+/* line 581, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-orchid-10 {
+  color: white; }
+
+/*brown*/
+/* line 584, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-100 {
+  color: #a52a2a; }
+
+/* line 585, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-90 {
+  color: #b92f2f; }
+
+/* line 586, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-80 {
+  color: #cc3636; }
+
+/* line 587, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-70 {
+  color: #d14a4a; }
+
+/* line 588, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-60 {
+  color: #d65f5f; }
+
+/* line 589, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-50 {
+  color: #db7373; }
+
+/* line 590, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-40 {
+  color: #e18787; }
+
+/* line 591, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-30 {
+  color: #e69c9c; }
+
+/* line 592, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-20 {
+  color: #ebb0b0; }
+
+/* line 593, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-brown-10 {
+  color: #f0c4c4; }
+
+/*tan*/
+/* line 597, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-100 {
+  color: #b88747; }
+
+/* line 598, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-90 {
+  color: #bf9359; }
+
+/* line 599, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-80 {
+  color: #c69f6c; }
+
+/* line 600, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-70 {
+  color: #cdab7e; }
+
+/* line 601, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-60 {
+  color: #d4b791; }
+
+/* line 602, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-50 {
+  color: #dbc3a3; }
+
+/* line 603, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-40 {
+  color: #e3cfb5; }
+
+/* line 604, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-30 {
+  color: #eadbc8; }
+
+/* line 605, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-20 {
+  color: #f1e7da; }
+
+/* line 606, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-tan-10 {
+  color: #f8f3ed; }
+
+/*gray*/
+/* line 609, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-100 {
+  color: #808080; }
+
+/* line 610, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-90 {
+  color: #8d8d8d; }
+
+/* line 611, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-80 {
+  color: #9a9a9a; }
+
+/* line 612, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-70 {
+  color: #a6a6a6; }
+
+/* line 613, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-60 {
+  color: #b3b3b3; }
+
+/* line 614, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-50 {
+  color: silver; }
+
+/* line 615, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-40 {
+  color: #cccccc; }
+
+/* line 616, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-30 {
+  color: #d9d9d9; }
+
+/* line 617, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-20 {
+  color: #e6e6e6; }
+
+/* line 618, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-gray-10 {
+  color: #f3f3f3; }
+
+/*slateGray*/
+/* line 621, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-100 {
+  color: #7e8c9b; }
+
+/* line 622, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-90 {
+  color: #8c99a6; }
+
+/* line 623, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-80 {
+  color: #9ba6b1; }
+
+/* line 624, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-70 {
+  color: #a9b2bc; }
+
+/* line 625, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-60 {
+  color: #b7bfc8; }
+
+/* line 626, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-50 {
+  color: #c6ccd3; }
+
+/* line 627, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-40 {
+  color: #d4d9de; }
+
+/* line 628, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-30 {
+  color: #e3e6e9; }
+
+/* line 629, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-20 {
+  color: #f1f2f4; }
+
+/* line 630, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-slateGray-10 {
+  color: white; }
+
+/*red*/
+/* line 633, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-100 {
+  color: #e60000; }
+
+/* line 634, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-90 {
+  color: red; }
+
+/* line 635, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-80 {
+  color: #ff1a1a; }
+
+/* line 636, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-70 {
+  color: #ff3434; }
+
+/* line 637, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-60 {
+  color: #ff4d4d; }
+
+/* line 638, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-50 {
+  color: #ff6666; }
+
+/* line 639, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-40 {
+  color: #ff8080; }
+
+/* line 640, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-30 {
+  color: #ff9a9a; }
+
+/* line 641, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-20 {
+  color: #ffb3b3; }
+
+/* line 642, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-red-10 {
+  color: #ffcccc; }
+
+/*black*/
+/* line 645, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-100 {
+  color: #000000; }
+
+/* line 646, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-90 {
+  color: #0d0d0d; }
+
+/* line 647, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-80 {
+  color: #1a1a1a; }
+
+/* line 648, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-70 {
+  color: #262626; }
+
+/* line 649, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-60 {
+  color: #333333; }
+
+/* line 650, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-50 {
+  color: #404040; }
+
+/* line 651, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-40 {
+  color: #4d4d4d; }
+
+/* line 652, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-30 {
+  color: #595959; }
+
+/* line 653, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-20 {
+  color: #666666; }
+
+/* line 654, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-black-10 {
+  color: #737373; }
+
+/*white*/
+/* line 657, C:/Users/student/Desktop/第三個網站資料/2016rwd_3/css/colors-pattern.scss */
+.text-white {
+  color: #ffffff; }
+
+/*# sourceMappingURL=colors-pattern.css.map */

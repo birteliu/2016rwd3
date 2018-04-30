@@ -1,0 +1,5 @@
+<!--index.html loading page-->
+<!--
+div#section-1.fx-container.full-device>(div.gw-12.omega.pt1>h2.text-white.f-dec{title})+(div.flex-no-space-4.pos-r[itemscope][item-type="http://schema.org/Product"]>(a.block.pos-r[href="assist/section_1.html"][itemprop="url"]>(img[itemprop="image"])+(i.icon-.text-white.bgc-navy-90))+(h5.f-b.text-white.block>(sup.block.f-light{first text line})+(span[itemprop="name"]{product name})+(small.block.f-normal[itemprop="description"]{short description.})))
+
+-->
